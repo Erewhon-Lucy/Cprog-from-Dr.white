@@ -28,8 +28,8 @@ void hanoi(int n, char src, char dest, char aux)
 
 int main()
 {
-    int n = 3;
-    const char src = 'a', dest = 'b', aux = 'c';
+    int n =4;
+    const char src = 'a', dest = 'c', aux = 'b';
     hanoi(n, src, dest, aux);
     
     return 0;
